@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html{
+    height: 100%;
+}
+
+body {
+  background: #F0F0F0;
+  margin: 0;
+  color: white;
+  height: 100%;
+}
+#preloader {
+    overflow: hidden;
+    background: linear-gradient(145deg, #17204f 0%, #384cad 100%);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 9999999;
+    color: #fff;
+  }
+  
+  #preloader .jumper {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/e.svg');
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+  }
+  
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.margin-simu{
+  margin: 20px;
+}
+
+.div-simu{
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.div-simu h2{
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+.div-simu p{
+  max-width: 670px;
+  font-weight: 100 !important;
+  padding-bottom: 10px;
+  color: #d7d7d7 !important;
+}
+.nav-simu{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    padding: 35px;
+    background: none;
+}
+
+.subscribe-box {
+    background: #fff;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-box h2 {
+  color: #1a286c !important;
+  margin: 0 0 0.85em 0;
+  font-weight: 900;
+  font-size: 30px;
+}
+.subscribe-box .subscribe {
+color: rgb(190, 190, 190);
+  width: 100%;
+  max-width: 430px;
+  margin: auto;
+}
+.subscribe-box .subscribe input {
+    color: #e4e4e4;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    padding: 0.5em 0 0.4em;
+    font-weight: 900;
+    text-align: center;
+    font-size: 28px;
+    font-family: inherit;
+    font-weight: 900;
+    line-height: 1.5;
+    color: inherit;
+    outline: none;
+}
+.subscribe-box .subscribe input::-moz-placeholder {
+  color: rgb(190, 190, 190)!important;
+}
+.subscribe-box .subscribe input:-ms-input-placeholder {
+    color: rgb(190, 190, 190) !important;
+}
+.subscribe-box .subscribe input::placeholder {
+    color: rgb(190, 190, 190) !important;
+}
+
+.text-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e4e4e4;
+}
+
+.text-main2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e4e4e4;
+}
+
+.h3-main{
+    color: #e4e4e4;
+    max-width: 600px;
+    font-size: 23px;
+    color: #1a286c;
+    font-weight: 600;
+}
+
+.h3-main b{
+    font-weight: 600;
+    color: #ff7000;
+}
+
+.icon-main{
+    color: #ff7000;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.icon-main2{
+  color: #ff7000;
+  font-size: 40px;
+  margin-right: 15px;
+}
+.p-certo{
+    color: #acacac;
+    font-weight: 200;
+    max-width: 700px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.p-certo b{
+    font-weight: 600;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+
+  
+.btn-main {
+    color: #fff;
+    background-color: #f06803;
+    border: 2px solid #ffffff;
+    padding: 8px 38px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    font-size: 19px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-main:hover {
+	color: #f06803;
+	transition: 0.4s;
+	text-decoration: none !important;
+	background-color: transparent;
+	border: 2px solid #f06803;
+  }
+  
+  .i-main{
+    margin-left: 12px;
+    font-size: 17px;
+  }
+
+
+  @media (max-width: 580px) {
+    .text-main2{
+      flex-direction: column;
+  }
+  }
+
+  
+
+  
+    
