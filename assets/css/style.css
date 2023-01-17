@@ -1165,20 +1165,20 @@ footer .sub-footer a {
   }
 
   .div-alert{
-	top: 86%;
+	top: 63%;
     max-width: 800px;
-    position: fixed !important;
+    position: absolute !important;
     z-index: 99999;
-	font-size: 14px;
+    font-size: 14px;
   }
 .a-alert{
 	text-decoration: underline !important;
 	font-weight: 800;
-	color: #1a286c;
+	color: #1a286c !important;
 	margin-left: 5px;
 }
 .a-alert:hover{
-	color: #040a29;
+	color: #040a29 !important;
 }
   .close{
 	color: #e76000 !important;
@@ -1527,7 +1527,7 @@ footer .sub-footer a {
 
 @media (max-width: 530px) {
 	.div-alert{
-		top: 80%;
+	    top: 31%;
 	}
 }
 
