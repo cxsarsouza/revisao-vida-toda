@@ -1370,7 +1370,7 @@ footer .sub-footer a {
 		flex-direction: column-reverse;
 	}
 	.banner {
-		background-image: url(../images/bg-mobile.png);
+		background-image: url(../images/bg-mobile.jpg);
 		height: 950px;
 		padding: 130px 0px 180px 0px;
 	}
@@ -1537,6 +1537,9 @@ footer .sub-footer a {
 	}
 	details summary{
 		font-size: 1rem;
+	}
+	.testimonial-item{
+		min-height: 420px;
 	}
 }
 
