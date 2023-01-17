@@ -48,7 +48,13 @@ body {
 }
 
 .logo-simu{
-  width: 130px;
+  width: 110px;
+}
+
+.etapa{
+  color: #f06803;
+    font-size: 24px;
+    padding-bottom: 37px;
 }
 
 .div-simu{
@@ -212,6 +218,45 @@ color: rgb(190, 190, 190);
     margin-left: 12px;
     font-size: 17px;
   }
+
+  .two.desc {
+    text-decoration: underline;
+      font-size: 14px;
+      margin-top: 20px;
+      font-style: italic;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+  
+  .two.descop {
+    position: absolute;
+      left: 50%;
+      width: 100%;
+      font-size: 14px;
+      background: #ececec;
+      color: #838383;
+      border-radius: 10px;
+      padding: 10px 0;
+      margin-top: 5px;
+    max-width: 400px;
+      transform: translateX(-50%);
+      padding: 10px 5px;
+    display:none;
+    -webkit-box-shadow: 0px 0px 18px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 18px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px -12px rgba(0,0,0,0.75);
+  }
+  
+  .two.desc:hover ~ .two.descop {
+    display: block;
+  }
+  
 
 
   @media (max-width: 580px) {
