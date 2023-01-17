@@ -47,6 +47,10 @@ body {
   margin: 20px;
 }
 
+.logo-simu{
+  width: 130px;
+}
+
 .div-simu{
   max-width: 900px;
   display: flex;
@@ -216,6 +220,11 @@ color: rgb(190, 190, 190);
   }
   }
 
+  @media (max-height: 550px) {
+    .logo-simu{
+      width: 0px;
+    }
+  }
   
 
   
